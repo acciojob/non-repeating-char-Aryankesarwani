@@ -2,7 +2,7 @@ function firstNonRepeatedChar(str) {
  // Write your code here
 	
 	freq={};
-	for(let chars : str){
+	for(let chars of str){
 		freq[chars]=(freq[chars] || 0) + 1;
 	}
 for(let chars of str){
